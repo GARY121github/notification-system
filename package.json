@@ -1,0 +1,14 @@
+{
+  "name": "notification-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type" : "module",
+  "scripts": {
+    "start": "tsc & dist/index.js",
+    "build" : "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
