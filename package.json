@@ -2,13 +2,22 @@
   "name": "notification-system",
   "version": "1.0.0",
   "main": "index.js",
-  "type" : "module",
+  "type": "commonjs",
   "scripts": {
-    "start": "tsc & dist/index.js",
-    "build" : "tsc"
+    "start": "node --env-file=.env dist/index.js",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.10",
+    "express": "^4.21.2",
+    "kafka-node": "^5.0.0",
+    "mongoose": "^8.9.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
 }
